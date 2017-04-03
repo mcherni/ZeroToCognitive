@@ -1,10 +1,10 @@
 applications:
 - path: .
-  memory: 128M
+  memory: 256M
   instances: 1
-  domain: mybluemix.net
-  name: Z2C-rddill
-  host: Z2C
+  domain: eu-de.mybluemix.net
+  name: z2c-mc-chapter03
+  host: Z2C-mc
   disk_quota: 1024M
   services:
-    - Speech to Text-xx
+    - S2T-mc
